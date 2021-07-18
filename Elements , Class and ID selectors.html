@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+ <meta charset="utf-8">
+<title>Anatomy of CSS Rule</title>
+<style>
+h1 {
+	color:green;
+	font-size:36px;
+	text-align:middle;
+} 
+p {
+	color:blue;
+	font-size:20px;
+	width:200px;
+}
+h2{
+	color:red;
+	font-size: 30px;
+	text-align: center;
+}
+.highlight{
+	opacity: .6;
+	font-size: 20px;
+	font-weight: bold;
+	font-style: italic;
+	background-color: green;
+
+}
+#mainpoint{
+	font-size: 24px;
+	font-weight: bold;
+    color: red;
+    opacity: .7;
+}
+
+</style>
+</head>
+<body>
+<h1>Grouping and Styling multiple elements, class and IDs together</h1>
+<h2>Subheading 1</h2>
+<p>
+What we have here is a selector with one property and one value - these are the core concepts of CSS and you should try to remember their names as you progress through this tutorial. In this example, h1 is the selector name, color is the property and DeepSkyBlue is the value.
+
+In between these three concepts, you see a variety of special characters: There's the curly braces around the property and value, there's the colon separating the property from the value and there's the semicolon after the value. Each of them makes it easy for the browser to parse and understand your CSS code: The curly braces allow you to group several properties into the same rule (selector), the colon tells the parser where the property ends and the value starts, and the semicolon tells the parser where the value ends.
+ </p>
+
+
+<h2>Subheading 2</h2>
+<p class="highlight">
+A CSS rule consists of a selector and a declaration block.
+
+The selector points to the HTML element you want to style.
+
+The declaration block contains one or more declarations separated by semicolons.
+
+Each declaration includes a CSS property name and a value, separated by a colon.
+
+Multiple CSS declarations are separated with semicolons, and declaration blocks are surrounded by curly braces.
+
+</p>
+</body>
+</html>
